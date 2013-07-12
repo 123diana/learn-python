@@ -1,0 +1,3 @@
+Did this truncate the file?
+What does it even mean to truncate?
+Will the other lines be gone?
