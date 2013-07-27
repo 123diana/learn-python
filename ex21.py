@@ -90,7 +90,8 @@ def add(a, b):
 print "All ready. Let's go."
 print add(20, subtract(divide(10, 5), 2))
 print subtract(add(20, divide(10, 5)), 2)
-print 
+print "Figured it the fuck out. Minor typo. I can do math! I just can't type."
+
 
     
 
