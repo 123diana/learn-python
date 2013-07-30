@@ -1,0 +1,38 @@
+# This allows you to make a comment
+" " Marks off the string. Integers go outside the string.
+""" Marks off long strings that span multiple lines """
+
++ does addition
+- does subtraction
+/ does division
+* does multiplications, "string" * number will also print the string the appointed number of times
+% a modulus operator for math, 5 % 2 would give the remainder of five divided by two, so 1
+< less than
+> greater than
+<= less than or equal to
+>= greater than or equal to
+
+= used in math and also sets up variables and values
+
+%d a formatter used for digits
+%r a formatter used for raw programmer's version of variables, also called representation, used for debugging
+%s a formatter used for strings, %s is for display
+() put multiple variables for formatters in parentheses
+
+True - represents if something is True
+False - represents if something if False
+
+\ the backslash is used for escape sequences, which allows you to type difficult-to-type characters into strings
+\' or \" will allow you to print a quote mark within a string
+\n creates a new line in the string, but it does not work when you use %r
+\\ prints a single backslash within a string
+\t prints a tab indent into a string
+
+from sys import argv is used to import argument values from the system, by typing in an argument and running it with the code
+"import" this is how you add features to the script from the Python features set"
+"argv" stands for argument variable, it is a variable that holds the arguments you pass to your script
+the next line "script, first, second, third, etc" unpacks those arguments held by argv and assigns the arguments 
+    to the variables listed, such as, first, second, third, etc
+* features are also called modules
+
+def function_name(arguments):  creates a function
