@@ -1,15 +1,9 @@
-# {In which there are two doors, a bear, and a memory from your childhood}
-# — an adaptation of Chapter 31: Making Decisions. 
-
-print "You enter a dark room in a dark place"
-print "and you are confronted by \n\t\t two doors."
-print "They are the same door, but one is marked 1"
-print "and the other one is 2. Which do you choose?" 
+print "You enter a dark room with two doors. Do you go through door #1 or door#2?"
 
 door = raw_input("> ")
 
 if door == "1":
-  print "There is a giant bear eating a cheesecake. What do you do?"
+  print "There's a giant bear here eating a cheesecake. What do you do?"
   print "1. Take the cake."
   print "2. Scream at the bear."
   
@@ -49,8 +43,7 @@ if door == "1":
       print "1. No."
       print "2. Yes."
         
-      love = raw_input("> ")     
-     
+      love = raw_input("> ")
       if love == "1":
         print "You've broken the bear's heart. Now he will eat you."
       elif love == "2":
